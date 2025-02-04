@@ -1,0 +1,8 @@
+CREATE TABLE vendors (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    user_id BIGINT NULL,
+    business_name VARCHAR(255) NULL,
+    location VARCHAR(255) NULL,
+    status ENUM('PENDING', 'APPROVED', 'REJECTED') NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+);

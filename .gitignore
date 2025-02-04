@@ -1,0 +1,14 @@
+# Backend (Spring Boot)
+pgs-backend/target/
+pgs-backend/.mvn/
+pgs-backend/.idea/
+pgs-backend/.classpath
+pgs-backend/.project
+
+# Frontend (React)
+pgs-frontend/node_modules/
+pgs-frontend/build/
+pgs-frontend/.next/
+
+# General
+*.log
